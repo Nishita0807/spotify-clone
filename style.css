@@ -1,0 +1,704 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.spotify {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 6px;
+}
+
+.spotify > img {
+    width: 150px;
+    height: 50px;
+}
+
+
+.main {
+   
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+}
+
+.section-1, .section-2 {
+    padding-bottom: 10px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+.info {
+    width:20%; /* Modified to take full width on small screens */
+    height: 783px;
+  
+    background: #000;
+}
+
+.img-cplay {
+    display: inline;
+    margin-right: 12px;
+    width: 29.645px;
+    height: 29.645px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.img-episode {
+    display: inline;
+    width: 25px;
+    height: 20.999px;
+    height: 29.645px;
+    background-color: green;
+    padding-top: 5px;
+    margin-right: 15px;
+}
+
+.episode {
+    padding-top: 12px;
+}
+
+.footer {
+    width: 100%;
+    height: 112px;
+    flex-shrink: 0;
+    background: #181818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:10px;
+    padding-right: 50px;
+    position: relative;
+}
+
+.green{
+    width: 100%;
+    background: #1ED760;
+    height: 30px;
+    display:flex;
+    align-items:center;
+    justify-content: right;
+    position: relative;
+}
+
+.u{
+    position:absolute;
+    left:1080px;
+    top:881px;
+}
+.green>div{
+    width:auto;
+    margin-right:3px;
+    height:10px;
+    
+
+}
+.green>div>svg{
+    display: flex;
+width: 16.2px;
+height: 18px;
+padding: 2.248px 1.35px 2.252px 1.35px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+margin-top:-5px;
+}
+.green>.listen{
+    display: flex;
+width: 265.5px;
+height: 24px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-right:50px;
+}
+.sec-1,.sec-2,.sec-3{
+    width:auto;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+}
+.sec-3{
+    margin-right:50px;
+}
+
+.sec-3>div{
+    border-radius: 2.5px;
+background: #C4C4C4;
+width: 104.346px;
+height: 5px;
+flex-shrink: 0;
+margin-left:5px;
+}
+.sec-1{
+    background: #181818;
+    margin-right:50px;
+}
+.sec-2{
+    margin-top:-30px;
+    background: #181818;
+}
+.sec-2>svg{
+    padding-left:12px;
+    
+}
+.sec-3>svg{
+    padding-left: 12px;
+}
+
+.input{
+    position:absolute;
+    display: flex;
+    width:auto;
+    height:5px;
+    background-color: rgb(20, 15, 15);
+    align-items: center;
+    
+    justify-content: space-between;
+top:860px;
+left:350px;
+position:absolute;
+    
+}
+hr{
+    width:500px;
+    height: 1px;
+    border-radius: 5px;
+    background-color: #B3B3B3;
+    margin-left:8px;
+    margin-right:8px;
+}
+.time{
+    color: white;
+}
+.head{
+margin-left:12px;
+color: #FFF;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.9px;
+}
+
+.head>div{
+    margin-top:5px;
+    color: #B3B3B3;
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.75px;
+text-transform: uppercase;
+}
+
+.sec-1>div{
+    margin-left:12px;
+}
+.img{
+    
+    margin-left:12px;
+    width: 62.967px;
+height: 70px;
+flex-shrink: 0;
+    background: url(fimg.png), lightgray 50% / cover no-repeat;
+}
+
+.home {
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    background: #282828;
+}
+
+.search, .library, .cplay, .like, .episode {
+    border-radius: 2px;
+    background: #000;
+}
+
+.section-1>ul>li>a{
+    color:white;
+    text-decoration: none;
+}
+ul > li {
+    margin-left: -40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+    padding-bottom: 5px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.14px;
+}
+
+li > svg {
+    width: 27.701px;
+    height: 28.41px;
+    flex-shrink: 0;
+    padding-right: 12px;
+    padding-top: 6px;
+}
+
+.section-3 > ul > li {
+    margin-bottom: 12px;
+}
+
+.section-4 {
+    margin-top: 70px;
+}
+
+.section-4 > ul > li > svg {
+    padding-top: 10px;
+}
+
+.playlist {
+  
+    
+    width:80%; /* Modified to take full width on small screens */
+    height: 783px;
+
+    
+    /* Additional styles for your playlist container */
+}
+.nav{
+    width:100%; /* Modified to take full width on small screens */
+    height: 40px;  
+    background-color:#1f1f1fff;
+    align-items: center;
+display: flex;
+    padding-top:20px;
+}
+.playlist>.nav>.great{
+    color:white;
+    background-color: #131313ff;
+    margin-left:15px;
+   width:30px;
+   height:30px;
+
+   justify-content: center;
+   align-items: center;
+   border-radius:50%;
+    padding:8px;
+    opacity: 0.5;
+    margin-right: 12px;
+    display: flex;
+  }
+
+  .less{
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131313ff;
+    margin-left:15px;
+    width:30px;
+    height:30px;
+    padding:8px;
+    border-radius:50%;
+    justify-content: center;
+   align-items: center;
+   
+  }
+.log{
+margin-left:70%;
+    display: flex;
+    width:120px;
+    height:40px;
+    background-color: #0a0a0aff;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items:center;
+}
+.name{
+
+flex-shrink: 0;
+
+color: #FFF;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.4px;
+}
+
+.log-img{
+    width: 37px;
+height: 37px;
+flex-shrink: 0;
+border-radius: 37px;
+background: url("Ellipse 3.png"), lightgray 50% / cover no-repeat;
+}
+
+.good{
+    display:flex;
+    width: 280px;
+    height: 56px;
+    flex-shrink: 0;
+    margin-left: 50px;
+    margin-top:20px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.14px;
+   
+}
+
+.album {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #171717ff;
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping for the grid-row */
+  }
+  
+  .grid-row {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping within the row */
+    gap: 10px; /* Adjust the gap between divs */
+    width: 100%; /* Ensure the row takes the full width of the album */
+    margin-bottom:12px;
+  }
+  
+  .ls, .np, .kv {
+    display: flex;
+    width: calc(33.33% - 10px); /* Adjust the width and gap to fit three divs in a row */
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #303030;
+    color: #FFF;
+ 
+   align-items: center;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.4px;
+  }
+  .ls>p, .np>p, .kv>p{
+    margin-left: 12px;
+  }
+
+
+  .dance>p{
+    margin-left: 12px;
+    width:150px;
+  }
+  .dance {
+    display: flex;
+    width: calc(33.33% - 10px); /* Adjust the width and gap to fit three divs in a row */
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #303030;
+    color: #FFF;
+ 
+   align-items: center;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.4px;
+  }
+  
+
+.limg{
+    width: 100px;
+height: 100px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 4px 0px 0px 4px;
+background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+
+.lnp{
+    width: 99.725px;
+height: 101px;
+flex-shrink: 0;
+    border-radius: 4px 0px 0px 4px;
+background: linear-gradient(180deg, rgba(255, 0, 0, 0.31) 0%, rgba(166, 0, 0, 0.00) 100%), url(s.png), lightgray 50% / cover no-repeat;
+}
+
+
+.lkv{
+    border-radius: 4px 0px 0px 4px;
+background: url(k.png), lightgray 50% / cover no-repeat;
+width: 100px;
+height: 100px;
+flex-shrink: 0;
+}
+.ldance{
+    width: 100px;
+height: 100px;
+flex-shrink: 0;
+    border-radius: 4px 0px 0px 0px;
+background: url(dance.png), lightgray 50% / cover no-repeat;
+}
+
+.show-all{
+    display: flex;
+    background-color:#141414ff;
+    width:100%;
+    height:auto;
+    margin-top:20px;
+    justify-content: space-between;
+}
+
+.tshow{
+    display: flex;
+    margin-left:50px;
+    color: #FFF;
+font-family: DM Sans;
+font-size: 29px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.16px;
+}
+.see{
+    margin-right:50px;
+    display: flex;
+    color: #B3B3B3;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.68px;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* Make the entire page scrollable */
+html {
+    overflow: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Microsoft Edge */
+}
+
+/* Hide scrollbar for webkit browsers (Chrome, Safari) */
+html::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+.playlist {
+    overflow: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Microsoft Edge */
+}
+
+/* Hide scrollbar for webkit browsers (Chrome, Safari) */
+.playlist::-webkit-scrollbar {
+    width: 0;
+    height:0;
+}
+
+.playlist::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+.plays {
+    max-width: 90%;
+    margin: 0 auto; /* Center the row horizontally */
+    height: auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between; /* Distribute divs evenly in the row */
+    padding-bottom: 12px;
+  }
+  
+  .play1, .play2, .play3, .play4 {
+    width: calc(25% - 10px); /* Adjust width to fit four divs in one row */
+    height: 305.904px;
+    flex-shrink: 0;
+    background: #181818;
+    margin-right: 10px; /* Adjust spacing between divs */
+    display:block;
+
+  }
+  
+
+  /* Remove the right margin for the last div */
+  .play4 {
+    margin-right: 0;
+  }
+  
+
+.img-1{
+    display: flex;
+    border-radius: 14px;
+    width: 207.778px;
+height: 207.928px;
+margin:5px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.23) 26.44%), url(img-1.png), lightgray 50% / cover no-repeat;
+}
+.img-2{
+    border-radius: 14px;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0.4%, rgba(0, 0, 0, 0.00) 32.6%), url(img-2.png), lightgray 50% / cover no-repeat;
+display: flex;
+    border-radius: 14px;
+    width: 207.778px;
+height: 207.928px;
+margin:5px;
+}
+.img-3{
+    border-radius: 14px;
+background: linear-gradient(182deg, rgba(0, 0, 0, 0.65) 1.59%, rgba(0, 0, 0, 0.00) 48.02%), url(img-3.png), lightgray 50% / cover no-repeat;
+display: flex;
+    border-radius: 14px;
+    width: 207.778px;
+height: 207.928px;
+margin:5px;
+}
+
+
+.img-4{
+    border-radius: 14px;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0.26%, rgba(0, 0, 0, 0.00) 50.26%), url(img-4.png), lightgray 50% / cover no-repeat;
+display: flex;
+    border-radius: 14px;
+    width: 207.778px;
+height: 207.928px;
+margin:5px;
+
+
+}
+.play>p{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.42px;
+margin-left:5px;
+}
+
+
+
+.play>h1{
+    color: #B3B3B3;
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.15px;
+margin-left: 5px;
+margin-top:0px;
+}
+
+@media (max-width: 768px) {
+    .input {
+        top: auto; /* Remove the absolute positioning */
+        bottom: 10px; /* Add a bottom spacing for the input */
+        left: 0; /* Adjust the left positioning as needed */
+        right: 0; /* Adjust the right positioning as needed */
+        margin: 0 auto; /* Center the input horizontally */
+        position: relative; /* Change it to relative positioning */
+        width: 90%; /* Adjust the width as needed */
+    }
+    .info {
+        width: 40%; /* Take full width on small screens */
+        height: auto; /* Remove fixed height on small screens */
+    }
+
+    
+    .footer {
+        height: auto; /* Remove fixed height on mobile view */
+        flex-direction: column; /* Stack footer items in a column */
+        align-items: center; /* Adjust alignment for footer items */
+        justify-content: center; /* Adjust alignment for footer items */
+        padding-bottom: 10px; /* Add some padding at the bottom for spacing */
+        margin-bottom: 0; /* Remove the margin at the bottom of the footer */
+    }
+
+    .green {
+        margin-top: 5px; /* Add margin at the top of the green element */
+     
+    }
+    .nav{
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        margin-bottom:80px;
+        margin-left:-110px;
+      }
+    .u {
+        display: none;
+      
+
+    }
+
+    .nav .log{
+        margin-top: 12px;
+        margin-left:80px;
+    }
+    hr {
+        margin: 0; /* Remove margin for the <hr> element */
+    }
+    /* Add margin or spacing between footer items if necessary */
+    .sec-1,
+    .sec-2,
+    .sec-3,
+    .input
+    
+    {   padding-left:10px;
+        margin-bottom: 10px; /* Adjust the spacing between footer items */
+    }
+    
+
+    .playlist {
+        width: 60%; /* Make the playlist take full width on small screens */
+        height: auto; /* Remove fixed height on small screens */
+    }
+    .grid-row {
+        flex-direction: column; /* Stack divs in a single column */
+      }
+      
+      .dance,.ls, .np, .kv {
+        width: 100%; /* Full width for each div in mobile view */
+        margin-bottom: 10px; /* Add spacing between divs */
+      }
+      .row{
+        flex-direction: column;
+      }
+      .play{
+        width: 100%;
+        margin-bottom:20px;  
+      }
+}
